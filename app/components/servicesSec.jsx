@@ -13,7 +13,7 @@ export default function servicesSec() {
         <div className="serviceBoxes md:grid grid-cols-3 text-white gap-3 ">
             {servicesSection.servicesBox.map((service)=>{
                 return   <div key={service.service_name} className="serviceSingleBox mb-5 md:mb-2 border border-[#1f202c] shadow-md shadow-[#0d1016] rounded-md py-7 px-4 text-center  ">
-                    <Image src={service.service_image} width={70} height={70} className='block mx-auto py-2'></Image>
+                    <Image alt='siteImage' src={service.service_image} width={70} height={70} className='block mx-auto py-2'></Image>
                     <h1 className='text-xl font-semibold py-2'>{service.service_name}</h1>
                         <p className='text-gray-400  leading-6 text-justify'>{service.service_desc}</p>                
 
