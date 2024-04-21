@@ -9,7 +9,7 @@ export default function contactSec() {
       <h1 className='mb-9 md:w-[50%] mx-auto  text-center text-3xl text-blue-600 py-3 font-semibold'>{contactSection.section_name}</h1>
       <div className="md:grid grid-cols-2 items-center">
         <div className="leftContactInfo col-span-1 leading-9">
-          <Image width={500} className='rounded-md  ' height={500} src={contactSection.contact_photo}></Image>
+          <Image alt='siteImage3' width={500} className='rounded-md  ' height={500} src={contactSection.contact_photo}></Image>
 
           {/* <h1 className='w-[90%] my-2 py-1 px-3  flex items-center gap-2'><UserCircleIcon  className='w-[25px] text-blue-600'/> {contactSection.contacter_name}</h1>
           <h1 className=' w-[90%] my-2 py-1 px-3  flex items-center gap-2'><PhoneIcon className='w-[25px] text-blue-600'/> {contactSection.contact_phone}</h1>
