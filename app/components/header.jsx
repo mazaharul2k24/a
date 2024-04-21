@@ -10,14 +10,14 @@ export default function header() {
         <div className="headerWrapper items-center grid grid-cols-4  w-[90%] mx-auto text-white ">
             <Link href={'/'} className="leftLogo col-span-1">
 
-                <Image  src={HeaderSection.site_logo} width={180} height={100}></Image>
+                <Image  alt='siteImage' src={HeaderSection.site_logo} width={180} height={100}></Image>
 
             </Link>
             <div className="rightMenu col-span-3 mr-0 mx-auto ">
                 <ul className='flex items-center gap-6 '>
                   <button className='border border-gray-600  p-1 rounded-full'>
                     <Link href={'/login'}>
-                    <Image src={HeaderSection.header_right_icon} width={35} height={35}></Image>
+                    <Image alt='siteImage' src={HeaderSection.header_right_icon} width={35} height={35}></Image>
                     </Link>
                  
 
