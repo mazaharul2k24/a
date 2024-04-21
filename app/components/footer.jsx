@@ -7,13 +7,13 @@ export default function footer() {
   return (
     <div className='footermain text-center bg-[#1f232c] pt-14 pb-3 rounded-md shadow-slate-700'>
         <Link href={'/'} className="web_logoSection mx-auto block">
-            <Image className='mx-auto' src={footerSection.f_logo} width={200} height={100} ></Image>
+            <Image alt='siteImage' className='mx-auto' src={footerSection.f_logo} width={200} height={100} ></Image>
         </Link>
 
 <div className="socilLinksfooter flex w-[11%] mx-auto py-2 ">
     {footerSection.footer_social_icons.map((a)=>(
         <Link target='_blank' key={a.icon_url} href={a.icon_url}>
-            <Image src={a.icon_img} width={560} height={60}></Image>
+            <Image alt='siteImage' src={a.icon_img} width={560} height={60}></Image>
         </Link>
     ))}
 </div>
