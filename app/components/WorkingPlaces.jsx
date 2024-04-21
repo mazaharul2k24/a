@@ -22,7 +22,7 @@ export default function WorkingPlaces() {
            {workingPlaceSection.work_placs.map((e)=>(
                 <Link href={e.sociallink} target='_blank' key={e.name} className="wordPsBowrapper  items-center flex py-4 px-3 gap-3 border  border-[#1f202c] shadow-md shadow-[#0d1016] rounded-md  ">
                <div className="ImageWp ">
-               <Image className='rounded-md' width={50} height={50} src={e.icon}></Image>
+               <Image alt='siteImage2' className='rounded-md' width={50} height={50} src={e.icon}></Image>
                </div>
                 <div className="wwptdwrapper">
                 <h2 className='text-gray-300 text-xl font-semibold'>{e.name}</h2>
