@@ -8,7 +8,7 @@ export default function IntroSec() {
         <div className="intiroWrapper py-20 px-5 block md:grid grid-cols-5 gap-5  ">
 
             <div className="intoleftContent md:col-span-2 ">
-            <Image className='rounded-full mx-auto  shadow-md shadow-blue-800' src={introSection.intro_image} width={300} height={250}></Image>
+            <Image alt='siteImage1' className='rounded-full mx-auto  shadow-md shadow-blue-800' src={introSection.intro_image} width={300} height={250}></Image>
               
             </div>
 
