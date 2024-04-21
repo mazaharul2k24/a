@@ -21,7 +21,7 @@ export default function Hero() {
 
             </div>
             <div className="rightHeroImage col-span-2 text-center mx-auto mt-12">
-                <Image className='rounded-full shadow-lg shadow-blue-500' width={500} height={500} src={HeroSection.right_image}></Image>
+                <Image alt='siteImage' className='rounded-full shadow-lg shadow-blue-500' width={500} height={500} src={HeroSection.right_image}></Image>
 
                 </div>
         </div>
