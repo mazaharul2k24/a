@@ -6,7 +6,7 @@ const HeaderSection={
 }
 const HeroSection={
     sm_title:"Hi, There",
-    md_title:" Programmer, Trainer & Public Speaker",
+    md_title:" Programmer, Trainer & Student",
     xl_tittle:"I'm  Mazaharul",
     desc:"Over the last 5 years, I have been developing web and Digital marketer  for my clients world wide.",
     action_btn:{
@@ -43,7 +43,7 @@ const servicesSection={
         },
         {
             service_name:"Facebook Marketing",
-            service_desc:"I am skilled web designer I design with HTML5,tailwind css, And JavaScript . I Have More Than 3+ years experiences In this Field.",
+            service_desc:"Marketing is very popular way to grow your business which can be done through facebook marketing I can do facebook marketing for you if you want.",
             service_image:"/facebook.png"
         },
         {
