@@ -20,9 +20,9 @@ export default function WorkingPlaces() {
         
            <div className="wpWr md:grid grid-cols-2 gap-3">
            {workingPlaceSection.work_placs.map((e)=>(
-                <Link href={e.sociallink} target='_blank' key={e.name} className="wordPsBowrapper  items-center flex py-4 px-3 gap-3 border  border-[#1f202c] shadow-md shadow-[#0d1016] rounded-md  ">
+                <Link href={e.sociallink} target='_blank' key={e.name} className="mb-2 md:mb-0 wordPsBowrapper  items-center flex py-4 px-3 gap-3 border  border-[#262734] shadow-md shadow-[#0d1016] rounded-md  ">
                <div className="ImageWp ">
-               <Image alt='siteImage2' className='rounded-md' width={50} height={50} src={e.icon}></Image>
+               <Image alt='workplaces image' className='rounded-md' width={50} height={50} src={e.icon}></Image>
                </div>
                 <div className="wwptdwrapper">
                 <h2 className='text-gray-300 text-xl font-semibold'>{e.name}</h2>
