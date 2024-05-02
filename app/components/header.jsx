@@ -8,12 +8,12 @@ export default function header() {
   return (
     <header className='bg-[#131b2f] py-1 mb-4  '>
         <div className="headerWrapper items-center grid grid-cols-4  w-[90%] mx-auto text-white ">
-            <Link href={'/'} className="leftLogo col-span-1">
+            <Link href={'/'} className="leftLogo md:col-span-1 col-span-2">
 
                 <Image  alt='siteImage' src={HeaderSection.site_logo} width={180} height={100}></Image>
 
             </Link>
-            <div className="rightMenu col-span-3 mr-0 mx-auto ">
+            <div className="rightMenu md:col-span-3 col-span-2 mr-0 mx-auto ">
                 <ul className='flex items-center gap-6 '>
                   <button className='border border-gray-600  p-1 rounded-full'>
                     <Link href={'/login'}>
